@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.main{
+  background:rgb(187, 184, 184);
+  width:30%;
+  margin:auto;
+  margin-top:12px;
+  border-radius:5px;
+  max-height: 100vh;
+  
+}
+.main h1{
+  padding-bottom:12px;
+  padding-top:12px;
+  font-size:22px;
+  background:rgb(232, 226, 226);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.input {
+  display:flex;
+  padding:25px;
+ 
+}
+.input input{
+  width:100%;
+  padding:10px;
+  font-size:22px;
+ 
+
+}
+.input input ,.input button,.listitems button{
+  outline: none;
+  border:none;
+  border-radius: 8px;
+}
+.input button{
+
+  width:25%;
+  margin-left:12px;
+  font-size:22px;
+  text-transform: capitalize;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list{
+  padding: 5px 55px 5px 55px;
+  max-height:300px;
+  overflow: scroll;
+ 
+}
+.list::-webkit-scrollbar{
+  display: none;
+}
+.listitems{
+  display:flex;
+  justify-content: space-between;
+  background:White;
+  padding:8px;
+  align-items: center;
+  margin-top:12px;
+  position: relative;
+  border-radius:8px;
+}
+.listitems button {
+  padding:5px;
+  background:rgb(105, 103, 103);
+  color:#fff;
+}
+.startText{
+  position: absolute;
+  color:red;
+  left:32px;
+}
+
+@media (min-width:20px) and (max-width:415px) {
+  .main{
+    width:98%;
+    
+  }
+}
